@@ -1,1 +1,1 @@
-const width = 400;
+const width = 400; //leveys
