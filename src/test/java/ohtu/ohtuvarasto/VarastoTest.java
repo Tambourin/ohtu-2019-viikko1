@@ -59,9 +59,7 @@ public class VarastoTest {
     public void uudenVarastonAlkusaldoYliTilavuuden() {
       Varasto uusiVarasto = new Varasto(10, 11);
       assertEquals(10, uusiVarasto.getSaldo(), vertailuTarkkuus);
-    }
-
-    
+    }    
 
     @Test
     public void lisaysLisaaSaldoa() {
