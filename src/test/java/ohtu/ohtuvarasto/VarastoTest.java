@@ -80,7 +80,7 @@ public class VarastoTest {
     @Test
     public void lisattySaldoYlittaaTilavuuden() {
       varasto.lisaaVarastoon(999);
-      assertEquals(999, varasto.getSaldo(), vertailuTarkkuus);
+      assertEquals(10, varasto.getSaldo(), vertailuTarkkuus);
     }
 
     @Test
